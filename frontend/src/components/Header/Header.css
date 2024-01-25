@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+span{
+    width: 19rem;/* Pra igualar com a logo */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4rem;
+}
