@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Servicos from "./pages/Servicos";
-import Precos from "./pages/Precos";
+import Home from "./pages/Home/Home";
+import Servicos from "./pages/Servicos/Servicos";
+import Precos from "./pages/Precos/Precos";
 import "./App.css"
 
 function App() {

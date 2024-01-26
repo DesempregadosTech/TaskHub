@@ -4,7 +4,7 @@
     align-items: center;
     padding: 2rem 0;
 }
-span{
+.op{
     width: 19rem;/* Pra igualar com a logo */
     display: flex;
     align-items: center;

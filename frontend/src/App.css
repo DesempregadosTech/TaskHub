@@ -3,8 +3,8 @@
   src: url(https://fonts.adobe.com/fonts/acumin-variable?vf-instance=ExtraCondensed+Medium+Italic&vf-font-size=100&vf-font=AcuminVF);
 }
 @font-face {
-  font-family: "Roboto";
-  src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+  font-family: "Roboto Semi Condensed";
+  src: url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap);
 }
 *{
   margin: 0;
@@ -13,7 +13,8 @@
 }
 :root{
   --azul: #322A85;
-  --cinza: #CAC9C9;
+  --cinza: #F8F8F8;
+  --preto: #2F2F2F;
   --fonte-titulo: "Acumin"
   --transicao-padrao: all 300ms ease-in;
 }
@@ -24,6 +25,7 @@ body{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   background-color: var(--cinza);
   font-size: 1.6rem;
+  color: var(--preto);
 }
 h1, h2, h3, h4{
   font-family: "Acumin", Arial, Helvetica, sans-serif;
