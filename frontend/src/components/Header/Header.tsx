@@ -11,10 +11,10 @@ function Header () {
                     <img src={logo} alt="Logo Task Hub" />
                 </a>
                 <Menu/>
-                <span>
+                <div className="op">
                     <AvatarWrapper/>
                     <img src={menuIcon} alt="Menu" />
-                </span>
+                </div>
             </div>
         </header>
     )
