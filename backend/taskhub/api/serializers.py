@@ -12,8 +12,7 @@ class UserSerializer(serializers.ModelSerializer):
             username=validated_data['username'],
             email=validated_data['email'],
             nome=validated_data['nome'],
-            descricao=validated_data['descricao'],
-            amizade_id=validated_data['amizade_id']
+            descricao=validated_data['descricao']
         )
         user.set_password(validated_data['password'])
         user.save()
